@@ -16,6 +16,11 @@ This is the master checklist for the premium Figma library. Every component is b
 
 ---
 
+## Build progress (Figma pages)
+Built: Cover · Foundations · Forms · Layout & Navigation · Data & Feedback ·
+**Forms · Advanced** · **Selects & Pickers** · **Date & Time** · **Data Grid** · **Charts**.
+In progress: Tags/Tree/Timeline · Feedback & Overlays · Navigation Advanced · Upload & Transfer · Enterprise.
+
 ## Status legend: [x] built · [ ] planned
 
 ### Foundations  `[x]`
