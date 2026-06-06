@@ -166,3 +166,22 @@ Variables(4 collections, modes) = theme+density+brand swap; Component Properties
 variant+boolean+text+instance-swap (no variant explosion); Interactive Components =
 hover/focus/press, dropdown open, row hover, tooltip; Advanced Auto Layout = fill/hug,
 min/max width (columns), wrap (chips), absolute (corner badge), nested instances (DRY).
+
+## 7. Implementation status (built in Figma)
+Figma file: https://www.figma.com/design/5TS1dryeRHqObCLaTXsET6
+
+- Palette RE-SKINNED to this low-eye-strain spec by updating Primitives values
+  (warm slate neutrals, muted indigo brand #4A55A8, sage/ochre/terracotta/steel
+  status, white -> #FCFCFD). All 17 showcase pages + 83 library components
+  re-themed automatically (token-bound). Light/Dark preserved.
+- Density Variable collection created (Comfortable/Compact/Spacious): row-height
+  44/36/52, field-height 40/32/48, cell-padding-x 12/8/16, control-gap 8/6/10,
+  section-gap 16/12/20.
+- Page "Deep Controls" — real component sets:
+  Input 24 (Size x State), Button 54 (Type x Size x State), Toggle 30
+  (Value x State x Size), Checkbox 30 (Value x State x Size), Radio 20.
+- Page "DataGrid Library" — Cell set (17 Type variants), Header cell (Sort x Align = 6),
+  Row set (10 State variants incl. Editing/Error/Dragging/Loading/Expanded),
+  Toolbar / Bulk bar / Pagination / Filter panel components, and a Density
+  demo (3 grids tagged with their Density variable mode).
+- Total reusable components in Assets panel: ~280.
