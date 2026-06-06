@@ -44,6 +44,10 @@ Each page has a **Light board** and a **Dark board**; the Dark board simply has 
 
 ## 🧩 Pages & components
 
+**17 pages**, each with a **Light** and **Dark** board (token-driven). Researched against
+Material Design 3 / MUI, DevExpress, Syncfusion, Vuetify, Quasar, PrimeVue, Element Plus
+(see `COMPONENT_SPEC.md`).
+
 | Page | Components |
 |---|---|
 | 📘 **Cover** | Branded title card |
@@ -51,6 +55,18 @@ Each page has a **Light board** and a **Dark board**; the Dark board simply has 
 | 🧩 **Forms** | Buttons (6 variants · 3 sizes · states), inputs (default/focus/error/disabled/icon), select, search, textarea, checkbox, radio, switch, slider |
 | 🧭 **Layout & Navigation** | Navbar, sidebar, tabs, breadcrumb, pagination, stepper, card, stat cards, dropdown menu, accordion, modal/dialog |
 | 📊 **Data & Feedback** | Data table, badges (solid + subtle), alerts (4 status), toast, avatars (sizes/status/group), tooltip, progress, spinner, skeleton, empty state |
+| 🧩 **Forms · Advanced** | Icon/FAB/split/segmented/group/loading buttons, input variants (filled/outlined/underlined/borderless), prefix/suffix/clearable/password/counter, validation (error/success/warning), floating label |
+| 🔽 **Selects & Pickers** | Autocomplete, multi-select (+N), cascader/tree-select, OTP, number stepper, rating (full/half), knob, color picker |
+| 📅 **Date & Time** | Date picker (full day-state matrix), date range, time picker (list + wheel), mini calendar |
+| 📊 **Data Grid** | Toolbar, sortable headers, select-all + row selection, status/plan tags, expandable row + detail, summary row, pagination, batch bar, skeleton, empty |
+| 📈 **Charts** | Bar, line/area (vector), donut & gauge (arc), sparkline stat cards, heatmap, horizontal & stacked bars |
+| 🏷 **Tags, Tree & Timeline** | Tag variants (filled/outlined/subtle), badges (dot/count/status/ribbon), tree view, timeline (states), descriptions, statistic, result |
+| 🔔 **Feedback & Overlays** | Drawer, bottom sheet, popover, tooltips (plain/rich), toast stack, banner, linear/circular progress, spinner sizes, skeletons |
+| 🧭 **Navigation · Advanced** | App bars (small/large/search), nav rail, bottom nav, mega menu, context menu, command palette, speed dial, wizards (horizontal/vertical) |
+| 📤 **Upload & Transfer** | Dropzone (idle/drag-over), file list (uploading/success/error), image grid, avatar upload, dual-list transfer |
+| 🗂 **Kanban board** | 5-column board with rich cards (tags, assignees, due, progress, comments), toolbar |
+| 📁 **File manager & Editor** | File explorer (tree + storage meter + grid) and rich-text editor (formatting toolbar + document) |
+| 📆 **Scheduler & Gantt** | Weekly calendar with events + now-line, and a project Gantt chart with progress bars + milestone |
 
 ## ✅ Conventions
 

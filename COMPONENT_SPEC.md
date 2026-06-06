@@ -16,10 +16,11 @@ This is the master checklist for the premium Figma library. Every component is b
 
 ---
 
-## Build progress (Figma pages)
-Built: Cover · Foundations · Forms · Layout & Navigation · Data & Feedback ·
-**Forms · Advanced** · **Selects & Pickers** · **Date & Time** · **Data Grid** · **Charts**.
-In progress: Tags/Tree/Timeline · Feedback & Overlays · Navigation Advanced · Upload & Transfer · Enterprise.
+## Build progress (Figma pages) — ✅ COMPLETE (17 pages, all Light + Dark)
+Cover · Foundations · Forms · Layout & Navigation · Data & Feedback ·
+Forms · Advanced · Selects & Pickers · Date & Time · Data Grid · Charts ·
+Tags/Tree/Timeline · Feedback & Overlays · Navigation · Advanced · Upload & Transfer ·
+Kanban board · File manager & Editor · Scheduler & Gantt.
 
 ## Status legend: [x] built · [ ] planned
 
