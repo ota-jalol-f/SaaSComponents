@@ -185,3 +185,35 @@ Figma file: https://www.figma.com/design/5TS1dryeRHqObCLaTXsET6
   Toolbar / Bulk bar / Pagination / Filter panel components, and a Density
   demo (3 grids tagged with their Density variable mode).
 - Total reusable components in Assets panel: ~280.
+
+## 8. Research-validated additions (v1.2)
+Two parallel research passes (Figma docs + DS-engineering blogs; and real designer
+pain-points across Figma Forum / Reddit / HN / industry surveys) confirmed demand
+for the following. Added to the Figma file:
+
+- **Boolean/Text component properties (kills variant explosion — the #1 reported pain
+  point).** New "Component Properties" page: a Button master with Variant (Type×Size=15)
+  + Boolean (Leading icon / Trailing icon) + Text (Label). Icon combinations are
+  properties, not new variants. Maps to `AppButton(type, size, label, leadingIcon?, trailingIcon?)`.
+- **High-contrast theme mode (AAA / 7:1)** added as a 3rd mode on the Theme collection
+  (Light · Dark · High-contrast) — validated accessibility/compliance demand.
+- **Accessibility tokens:** `focus/ring` (semantic, all 3 modes), `focus/ring-width` (2.5),
+  `touch-target/min` (44), `state/disabled-opacity` (0.45). Redundant status cues
+  (icon+text+color) enforced in status components.
+- **Variable scoping:** text colors → TEXT_FILL only, borders → STROKE_COLOR, backgrounds
+  → fills, radius → CORNER_RADIUS, spacing/density → gap/size — so a token can only be
+  used where valid (export-safe).
+- **In-library documentation** ("Getting Started" page): token architecture diagram +
+  collections/modes table, theme-modes demo (Light/Dark/High-contrast), accessibility
+  demos, naming & Flutter mapping, changelog, Do/Don't. Addresses the "no docs = shelfware"
+  pain point.
+- **Dev-handoff component descriptions** on every major set (usage + Flutter widget hint),
+  visible in the Assets panel and Dev Mode.
+
+### Backlog (validated, next wave)
+- Exposed nested instances (e.g. Row exposing Cell props; Toolbar exposing Button props).
+- Instance-swap with preferred values for cell renderers / icon slots.
+- Brand/white-label + Language/RTL + Breakpoint variable modes.
+- Interactive components (open-on-click menus, hover/press/focus, smart-animate).
+- "Ready for dev" status + Dev Mode annotations + Code Connect link-only mapping;
+  W3C DTCG token export → Style Dictionary / design_tokens_builder → Flutter ThemeData.
