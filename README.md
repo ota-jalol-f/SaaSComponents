@@ -42,10 +42,37 @@ Semantic tokens alias the primitives and flip automatically per mode:
 Each page has a **Light board** and a **Dark board**; the Dark board simply has the
 `Theme` collection mode set to *Dark*, and every bound variable resolves accordingly.
 
+## 📕 Storybook-style documentation
+
+Every component family has its own **doc page** (`📕 Docs · {Component}`) modelled on
+Storybook's Docs view. A **📕 Docs** landing page indexes all of them, grouped by
+Actions · Forms · Data display · Feedback · Containers · Navigation.
+
+Each doc page contains:
+
+| Section | Contents |
+|---|---|
+| **Header** | Title, one-line description, status badges (Stable · Ready for dev · version · variant count) |
+| **Preview** | A **live instance** of the real component pulled from the Assets library |
+| **Props** | Table of variant & control properties — type, default, description |
+| **Stories** | Every key state/variant rendered from the **real component** (not redrawn) |
+| **Anatomy** | Numbered breakdown of the component's structural parts |
+| **Usage** | Do / Don't guidance in paired columns |
+| **Accessibility** | WCAG 2.2 AA notes (roles, keyboard, focus, contrast, touch targets) |
+| **Code · Flutter API** | Copy-ready Flutter widget usage snippet |
+
+**38 documentation pages** (37 components + the Overview index): Button, Input, Select,
+Checkbox, Radio, Switch, Slider, Number stepper, Rating, Icon button, Segmented control,
+Tag, Chip, Badge, Avatar, Status dot, Stat card, Skeleton, Empty state, Divider, DataGrid,
+Tree, Calendar event, File item, Alert, Toast, Tooltip, Spinner, Progress bar, Progress
+circular, Card, Accordion, Tabs, Menu item, Breadcrumb, Pagination, Step indicator.
+
 ## 🧩 Pages & components
 
-**17 pages**, each with a **Light** and **Dark** board (token-driven). Researched against
-Material Design 3 / MUI, DevExpress, Syncfusion, Vuetify, Quasar, PrimeVue, Element Plus
+**45+ pages** (showcase boards + the documentation set), token-driven across **Light, Dark
+and High-contrast**. **1,007 build-ready Figma components** across **77 component sets** live
+in the Assets panel. Researched against Material Design 3 / MUI, DevExpress, Syncfusion,
+Vuetify, Quasar, PrimeVue, Element Plus, Ant Design, Carbon, Chakra and Radix
 (see `COMPONENT_SPEC.md`).
 
 | Page | Components |
