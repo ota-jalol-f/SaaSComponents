@@ -69,11 +69,33 @@ circular, Card, Accordion, Tabs, Menu item, Breadcrumb, Pagination, Step indicat
 
 ## 🧩 Pages & components
 
-**55+ pages** (showcase boards + the documentation set + ten **🧩 Sets** volumes),
-token-driven across **Light, Dark and High-contrast**. **1,356 build-ready Figma
-components** across **212 component sets** live in the Assets panel. Researched against
+**95+ pages** (showcase boards + the documentation set + ten **🧩 Sets** volumes + seven
+**🧬 Unique** archetype pages), token-driven across **Light, Dark and High-contrast**.
+**1,496 build-ready Figma components** across **282 component sets** live in the Assets panel. Researched against
 Material Design 3 / MUI, DevExpress, Syncfusion, Vuetify, Quasar, PrimeVue, Element Plus,
 Ant Design, Carbon, Chakra and Radix (see `COMPONENT_SPEC.md`).
+
+### 🧬 Unique component archetypes (research-driven)
+
+After a deep-research pass across **Material/MUI X, Ant Design, Carbon, Fluent, Chakra,
+Mantine, Radix, shadcn, PrimeReact/Vue, DevExpress DevExtreme, Syncfusion, Vuetify,
+Quasar, Element Plus, Bootstrap, Polaris** and the data-viz literature, we identified and
+built the **structurally-distinct archetypes** the library was missing — each one a genuinely
+different structure/behaviour, not a restyled pill/chip/row. **70 unique types across 7
+"Unique" pages:**
+
+| Page | Archetypes |
+|---|---|
+| **Unique I · Charts** | Line, Area, Bar, Grouped bar, Stacked bar, Pie/Donut, Scatter, Bubble, Radar, Histogram — all with real axes & gridlines |
+| **Unique II · Charts+** | Treemap, Sankey, Funnel, Waterfall, Candlestick, Box plot, Bullet, Heatmap matrix, Calendar heatmap, Gauge cluster (speedometer) |
+| **Unique III · Pickers** | Color picker (SV + hue), Date-range (dual month), Time wheel, Cascader, Emoji picker, Phone input, Query builder, Key-value editor, Signature pad, Markdown editor |
+| **Unique IV · Data** | Pivot table, Tree table, Spreadsheet (formula bar), Master-detail grid, Org chart, Flow node, Network graph, Kanban board, Gantt chart, Scheduler grid |
+| **Unique V · Media** | Video player, Audio waveform, Image carousel, Image cropper, Before/after slider, Galleria, PDF viewer, Map, Code editor (syntax), Diff viewer |
+| **Unique VI · Layout** | Split pane, Dock, Command palette, App shell, Email layout, Onboarding checklist, Order tracker, Seat map, Booking grid, Anchor TOC |
+| **Unique VII · Widgets** | Calculator, Dialer, Weather, Stock ticker, Analog clock, Compass, Equalizer, Terminal, Transfer shuttle, Stat scorecard |
+
+Charts and diagrams are drawn from real vectors / arcs and bound to the **Data-viz** token
+collection (colorblind-safe Wong / Viridis / RdBu palettes).
 
 ### 🧩 Component-set volumes (Assets panel)
 
