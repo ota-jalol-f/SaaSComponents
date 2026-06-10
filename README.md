@@ -69,11 +69,29 @@ circular, Card, Accordion, Tabs, Menu item, Breadcrumb, Pagination, Step indicat
 
 ## 🧩 Pages & components
 
-**45+ pages** (showcase boards + the documentation set), token-driven across **Light, Dark
-and High-contrast**. **1,007 build-ready Figma components** across **77 component sets** live
-in the Assets panel. Researched against Material Design 3 / MUI, DevExpress, Syncfusion,
-Vuetify, Quasar, PrimeVue, Element Plus, Ant Design, Carbon, Chakra and Radix
-(see `COMPONENT_SPEC.md`).
+**55+ pages** (showcase boards + the documentation set + ten **🧩 Sets** volumes),
+token-driven across **Light, Dark and High-contrast**. **1,356 build-ready Figma
+components** across **212 component sets** live in the Assets panel. Researched against
+Material Design 3 / MUI, DevExpress, Syncfusion, Vuetify, Quasar, PrimeVue, Element Plus,
+Ant Design, Carbon, Chakra and Radix (see `COMPONENT_SPEC.md`).
+
+### 🧩 Component-set volumes (Assets panel)
+
+Beyond the documented core families, **ten "Sets" pages** add deep, real variant sets
+covering the long tail a production SaaS needs — each a true Figma Component Set with
+variant properties:
+
+| Volume | Families |
+|---|---|
+| **Sets II** | Link, Kbd, Inline code, FAB, Split button, Button group, Avatar group, List item, Notification item, Timeline item, Banner, Snackbar, Description item, Meter |
+| **Sets III** | Toolbar button, Toggle button, Color swatch, OTP digit, PIN field, Tag input, Search bar, Combobox option, Carousel dot/control, Gallery thumb, Nav item, Nav rail item, Bottom nav item, Command item, Dock item |
+| **Sets IV** | Pricing card, Feature card, Profile card, KPI tile, Gauge, Legend item, Heatmap cell, Progress steps, Wizard step, Chat message, Blockquote, Callout, Knob |
+| **Sets V** | Like, Bookmark, Follow, Copy, Vote, Reaction, Attachment, Mention, Priority, Currency, Version, Git branch, CI status, PR status, Country, Severity icon |
+| **Sets VI** | Dropdown trigger, Popover, Context menu item, Tooltip bubble, Modal header, Sheet grabber, Editor tab, Mega menu item, Sidebar group header, Account switcher, Notification bell, Theme toggle, Avatar upload, Logo lockup, Scrim |
+| **Sets VII** | Textarea, Form field, Field label, Help text, Range slider, Date/Time input, Password input, Checkbox/Radio card, Switch row, Upload zone, Slider · value, View switcher |
+| **Sets VIII** | Sparkline, Mini bar chart, Donut mini, Trend arrow, Key-value row, Data badge, Activity item, Audit log row, Comparison bar, Rating display, Tag overflow, Avatar + label, Status node, Progress label, Empty cell, Summary cell |
+| **Sets IX** | Cookie consent, Feedback face, NPS score, Survey option, Poll bar, Quiz option, Achievement badge, Streak counter, Credit chip, Leaderboard row, Level bar, Milestone, Countdown unit, Inline edit, Color input, Badge ribbon, Tour step, Hotspot, Skeleton card |
+| **Sets X** | Multiselect token, Transfer item, Tree checkbox node, Calendar nav, Weekday header, Timezone chip, Filter group header, Sort menu item, Density toggle, Zoom control, Rows per page, Page jump |
 
 | Page | Components |
 |---|---|
