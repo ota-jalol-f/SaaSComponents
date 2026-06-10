@@ -88,6 +88,25 @@ them on every new ASBT screen; if a needed component is missing, add it here and
 > centered box (not auto-resize) — that's why the component uses `textAutoResize='NONE'` +
 > `textAlignHorizontal='CENTER'`. Only `characters` (and fills) are overridden per instance.
 
+## Modules observed (same shell, different table/title/action)
+
+The app reuses ONE shell (navbar → form → metrics → toolbar → Side-tab TabPanel + table →
+SplitPanel → process table → footer) across modules. Only the **title, primary action, and
+table columns** change. Modules captured so far:
+
+| Module | Table title | Primary action | Toolbar notes | Figma frame |
+|---|---|---|---|---|
+| **Permanent reg.** | "Doimiy ro'yxatga olish uchun so'rovnomalar" | "Yangi so'rovnoma yaratish" | `ФБШ` (Cyrillic) · IR | `ASBT — Main` |
+| **Residence reg. (ALT)** | "Turish joyi bo'yicha ro'yxatga olish uchun so'rovnomalar" | "Yangi ALT so'rovi" | `FBSh` (Latin) · IR | `ASBT — Turar joy (ALT)` |
+
+Both modules share the **same two Side tabs**: "Ro'yxatga olishga so'rovnomalar" (active) /
+"Ro'yxatga olinganlar" — this confirms the vertical Side-tab design is correct.
+
+**ALT module columns — NOT fully legible** (photo was angled/blurry). Partially read:
+`SO'ROV HOLATI · SHAXSIY RAQAMI · [SO'ROVNOMASI… (group): FAMILIYA (KIRIL…) · …]`. The ALT
+frame currently reuses the permanent-reg columns as a placeholder — **needs a clear,
+straight-on screenshot of the ALT table header to finalize the exact columns.**
+
 ## TODO / to confirm on next screenshots
 - Populated table rows (row striping, selected row, status pills in `HOLAT` / `SO'ROV HOLATI`).
 - Hover/active states for toolbar buttons & tabs.
