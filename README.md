@@ -69,9 +69,9 @@ circular, Card, Accordion, Tabs, Menu item, Breadcrumb, Pagination, Step indicat
 
 ## 🧩 Pages & components
 
-**95+ pages** (showcase boards + the documentation set + ten **🧩 Sets** volumes + seven
+**97 pages** (showcase boards + the documentation set + ten **🧩 Sets** volumes + eight
 **🧬 Unique** archetype pages), token-driven across **Light, Dark and High-contrast**.
-**1,496 build-ready Figma components** across **282 component sets** live in the Assets panel. Researched against
+**1,520 build-ready Figma components** across **294 component sets** live in the Assets panel. Researched against
 Material Design 3 / MUI, DevExpress, Syncfusion, Vuetify, Quasar, PrimeVue, Element Plus,
 Ant Design, Carbon, Chakra and Radix (see `COMPONENT_SPEC.md`).
 
@@ -81,7 +81,7 @@ After a deep-research pass across **Material/MUI X, Ant Design, Carbon, Fluent, 
 Mantine, Radix, shadcn, PrimeReact/Vue, DevExpress DevExtreme, Syncfusion, Vuetify,
 Quasar, Element Plus, Bootstrap, Polaris** and the data-viz literature, we identified and
 built the **structurally-distinct archetypes** the library was missing — each one a genuinely
-different structure/behaviour, not a restyled pill/chip/row. **70 unique types across 7
+different structure/behaviour, not a restyled pill/chip/row. **82 unique types across 8
 "Unique" pages:**
 
 | Page | Archetypes |
@@ -93,6 +93,7 @@ different structure/behaviour, not a restyled pill/chip/row. **70 unique types a
 | **Unique V · Media** | Video player, Audio waveform, Image carousel, Image cropper, Before/after slider, Galleria, PDF viewer, Map, Code editor (syntax), Diff viewer |
 | **Unique VI · Layout** | Split pane, Dock, Command palette, App shell, Email layout, Onboarding checklist, Order tracker, Seat map, Booking grid, Anchor TOC |
 | **Unique VII · Widgets** | Calculator, Dialer, Weather, Stock ticker, Analog clock, Compass, Equalizer, Terminal, Transfer shuttle, Stat scorecard |
+| **Unique VIII · More** | Chord diagram, Wind rose, Pareto, Choropleth, Violin plot, JSON tree viewer, Cron builder, Mind map, Swimlane/BPMN, Timeline scrubber, QR code, Comment thread |
 
 Charts and diagrams are drawn from real vectors / arcs and bound to the **Data-viz** token
 collection (colorblind-safe Wong / Viridis / RdBu palettes).
