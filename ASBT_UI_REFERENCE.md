@@ -64,6 +64,30 @@ Figma recreations live on page **`🖥 ASBT · Reference`** (frames `ASBT — Ma
 - Control height ~**32–34px**. Font: **Inter** throughout.
 - Density is **compact** (enterprise grid app) — tight row heights, small type.
 
+## Reusable ASBT component kit (Assets panel — page `🧩 ASBT UI Kit`)
+
+The reference screens are assembled from **instances** of these reusable components. Reuse
+them on every new ASBT screen; if a needed component is missing, add it here and instance it.
+
+| Component | Type | Notes |
+|---|---|---|
+| **ASBT / Button** | Set · `Type=Primary/Secondary/Success/Danger` | azure / outline / green / coral; editable `label` |
+| **ASBT / Toolbar button** | Set · `State=Default/Active` | bordered toolbar action |
+| **ASBT / Icon button** | Component | square outline icon button (`icon` text) |
+| **ASBT / Input** | Component | bordered field, editable `placeholder`, resizable width |
+| **ASBT / Metric** | Component | `label` + `value` (status-row metric) |
+| **ASBT / Page chip** | Set · `State=Default/Active` | pagination chip |
+| **ASBT / Side tab** | Set · `State=Active/Default` | **vertical side tab** — fixed center-aligned rotated label box so any `label` stays readable & centered (active = azure accent bar + tint) |
+
+> **Side tab fix:** earlier the vertical tab was an ad-hoc rotated text that looked cramped /
+> "chrome-like" and unreadable. It's now a proper reusable component: a 40px strip with a
+> **fixed-size, center-aligned, rotated label**, clear Active/Default states. The TabPanel is
+> just a vertical stack of two `ASBT / Side tab` instances.
+>
+> Per-instance label **position can't be overridden**, so the label must be a fixed-size
+> centered box (not auto-resize) — that's why the component uses `textAutoResize='NONE'` +
+> `textAlignHorizontal='CENTER'`. Only `characters` (and fills) are overridden per instance.
+
 ## TODO / to confirm on next screenshots
 - Populated table rows (row striping, selected row, status pills in `HOLAT` / `SO'ROV HOLATI`).
 - Hover/active states for toolbar buttons & tabs.
