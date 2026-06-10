@@ -77,7 +77,17 @@ them on every new ASBT screen; if a needed component is missing, add it here and
 | **ASBT / Input** | Component | bordered field, editable `placeholder`, resizable width |
 | **ASBT / Metric** | Component | `label` + `value` (status-row metric) |
 | **ASBT / Page chip** | Set · `State=Default/Active` | pagination chip |
-| **ASBT / Side tab** | Set · `State=Active/Default` | **vertical side tab** — fixed center-aligned rotated label box so any `label` stays readable & centered (active = azure accent bar + tint) |
+| **ASBT / Side tab** | Set · `State=Active/Default` | **vertical side tab** — fixed center-aligned rotated label box so any `label` stays readable & centered |
+
+### Active Side-tab geometry (important — it's a *tab shape*, not a flat rectangle)
+The **active** tab has the classic "tab-with-ears" shape that connects into the content panel:
+- **2 × 14px** rounded corners on the **outer (left)** edge.
+- **2 × 11px concave "ears" (quloq)** at the **content (right) junction** — top-right and
+  bottom-right curve outward to blend the tab into the panel.
+- Built as a vector (44 × 190 strip), fill azure-subtle `#EAF1FC`, 3px azure left accent,
+  azure Semi-Bold label. Default tab = plain white strip + right border + grey label.
+- Vector path: `M 0 25 Q 0 11 14 11 L 33 11 Q 44 11 44 0 L 44 190 Q 44 179 33 179 L 14 179 Q 0 179 0 165 Z`
+  (outer corners use the 14px Q-radius; the two `Q 44 …` segments are the 11px ears).
 
 > **Side tab fix:** earlier the vertical tab was an ad-hoc rotated text that looked cramped /
 > "chrome-like" and unreadable. It's now a proper reusable component: a 40px strip with a
